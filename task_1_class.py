@@ -11,7 +11,7 @@ class Student:
         summa = sum(self.grades)
         grades_num = len(self.grades)
         average_grade = summa / grades_num
-        print(average_grade)
+        return average_grade
 
 
 student_1 = Student(
